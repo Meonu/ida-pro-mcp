@@ -22,7 +22,7 @@ else:
 
     sys.path.pop(0)  # Clean up
 
-IDA_HOST = "127.0.0.1"
+IDA_HOST = "192.168.1.2"
 IDA_PORT = 13337
 
 mcp = McpServer("ida-pro-mcp")
